@@ -1,6 +1,6 @@
 import torch
-from torchtext.datasets.translation import WMT14, Multi30k
-from torchtext.data import Field, Iterator
+from torchtext.legacy.datasets.translation import WMT14, Multi30k
+from torchtext.legacy.data import Field, Iterator
 
 
 def test(model, max_seq_len=5000, root_data_path='.data', data_cls=WMT14):

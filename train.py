@@ -1,6 +1,6 @@
 import torch
-from torchtext.datasets.translation import WMT14, Multi30k
-from torchtext.data import Field, BucketIterator
+from torchtext.legacy.datasets.translation import WMT14, Multi30k
+from torchtext.legacy.data import Field, BucketIterator
 from model import TransformerModel
 
 
